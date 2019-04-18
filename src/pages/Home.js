@@ -3,6 +3,7 @@ import { Card, Col, Row } from 'reactstrap';
 // import './Home.css';
 import RotatingImage from '../components/Home/RotatingImage/RotatingImage';
 import Estimate from '../components/Home/Estimate/Estimate';
+import ImagesAndVideo from '../components/Home/ImagesAndVideo/ImagesAndVideo';
 
 class Home extends Component {
   render() {
@@ -14,7 +15,9 @@ class Home extends Component {
             <p>Sample text</p>
           </div>
         </div>
-
+        <div>
+          <ImagesAndVideo />
+        </div>
         <div>
           <Estimate />
         </div>
