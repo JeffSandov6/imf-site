@@ -1,16 +1,32 @@
 import React, { Component } from 'react';
-import './Home.css';
+import { Card, Col, Row } from 'reactstrap';
+// import './Home.css';
+import RotatingImage from '../components/Home/RotatingImage/RotatingImage';
+import Estimate from '../components/Home/Estimate/Estimate';
 
-export default class Home extends Component {
+class Home extends Component {
   render() {
     return (
-      <div className="Home">
-        <div className="lander">
-          <h1>Innovation Metal Roofing</h1>
-          <p>Sample text</p>
+      <div>
+        <div className="Home">
+          <div className="lander">
+            <h1>Innovation Metal Roofing</h1>
+            <p>Sample text</p>
+          </div>
         </div>
-        <div />
+
+        <div>
+          <Estimate />
+        </div>
+
+        {/* <div>
+            <Card className="carouselStyle">
+              <RotatingImage />
+            </Card>
+        </div> */}
       </div>
     );
   }
 }
+
+export default Home;

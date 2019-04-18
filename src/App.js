@@ -11,7 +11,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <NavigationBar />
+        <div>
+          <NavigationBar />
+        </div>
         <div>
           <Router>
             <Home />
