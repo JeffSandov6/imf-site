@@ -1,0 +1,6 @@
+- Get better images for the social media icons
+
+- Get images of matching dimensions
+
+- Get the email to be sent on the Estimate component
+
