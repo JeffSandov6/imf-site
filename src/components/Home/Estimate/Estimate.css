@@ -1,13 +1,70 @@
+.estimateAnd6Pics {
+  margin-top: 25px;
+  background-color: lightblue;
+  /* margin-bottom: 25px; */
+  /* border: 1px solid red; */
+  /* margin-right: 10px;
+  float: left; */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* .columnInner {
+  float: left;
+  width: 33.33%;
+  padding: 5px; */
+/* margin-left: 15px; */
+/* } */
+
+.column {
+  float: left;
+  /* width: 100%; */
+  margin-top: 15px;
+  padding: 0px;
+}
+
+/* .left { */
+/* float: left; */
+/* width: 25%;
+} */
+
+/* .right { */
+/* float: left; */
+/* width: 75%; */
+/* margin-top: 15px;
+  margin-left: 20px; */
+/* } */
+
+.row::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
 .contact-form {
-  margin-left: 20px; /*margin from the left */
-  margin-top: 50px; /*margin from the top */
+  float: left;
+  /*margin from the left */
+  margin-left: 20px;
+  margin-top: 25px;
   font-size: 50px;
-  margin-right: 50px;
+  margin-right: 20px;
   margin-bottom: 25px;
 }
 
 .text-boxes {
-  font-size: 20px;
+  font-size: 15px;
+}
+
+p1 {
+  font-size: 50px;
 }
 
 h2 {

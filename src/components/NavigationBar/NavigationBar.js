@@ -76,17 +76,17 @@ class NavigationBar extends Component {
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li>
-                <a href="https://www.instagram.com/">
-                  <img src={require('./facebookSmall.png')} alt="ig" />
+                <a href="https://www.instagram.com/innovationmetalroofing">
+                  <img src={require('./facebookSmallBlue.png')} alt="ig" />
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com/">
+                <a href="https://twitter.com/innovationmroof">
                   <img src={require('./facebookSmall.png')} alt="tw" />
                 </a>
               </li>
               <li>
-                <a href="https://www.facebook.com/">
+                <a href="https://www.facebook.com/innovationmetalroofing">
                   <img src={require('./facebookSmall.png')} alt="fb" />
                 </a>
               </li>

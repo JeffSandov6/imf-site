@@ -4,6 +4,7 @@ import { Card, Col, Row } from 'reactstrap';
 import RotatingImage from '../components/Home/RotatingImage/RotatingImage';
 import Estimate from '../components/Home/Estimate/Estimate';
 import ImagesAndVideo from '../components/Home/ImagesAndVideo/ImagesAndVideo';
+import HomeLander from '../components/Home/HomeLander/HomeLander';
 
 class Home extends Component {
   render() {
@@ -14,6 +15,9 @@ class Home extends Component {
             <h1>Innovation Metal Roofing</h1>
             <p>Sample text</p>
           </div>
+        </div>
+        <div>
+          <HomeLander />
         </div>
         <div>
           <ImagesAndVideo />
