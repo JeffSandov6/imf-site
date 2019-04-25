@@ -1,0 +1,20 @@
+.logo {
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+/* .line {
+    position: relative;
+}
+
+line:after {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 5px;
+    background: #c00;
+    content: "";
+    width: 100%;
+    display: block;
+  } */
