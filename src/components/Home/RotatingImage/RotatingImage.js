@@ -22,13 +22,25 @@ class RotatingImage extends Component {
 
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src={require('./IMG_3840.jpg')} alt="Los Angeles" />
+            <img
+              src={require('./IMG_3840.jpg')}
+              alt="image 1"
+              style={{ width: '80%' }}
+            />
           </div>
           <div class="carousel-item">
-            <img src={require('./IMG_3841.jpg')} alt="Chicago" />
+            <img
+              src={require('./IMG_3841.jpg')}
+              alt="image 2"
+              style={{ width: '80%' }}
+            />
           </div>
           <div class="carousel-item">
-            <img src={require('./IMG_3842.jpg')} alt="New York" />
+            <img
+              src={require('./IMG_3842.jpg')}
+              alt="image 3"
+              style={{ width: '80%' }}
+            />
           </div>
         </div>
 
