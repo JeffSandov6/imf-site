@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import './Estimate.css';
+import { Link } from 'react-router-dom';
+
+// TODO: use figure and figcaption to put a caption under each of the 6 images, so as to
+//       specify what each picture and link leads to
 
 class Estimate extends Component {
   render() {
@@ -46,11 +50,13 @@ class Estimate extends Component {
                   </a>
                 </div>
                 <div className="column">
-                  <img
-                    src={require('./IMG_3840.jpg')}
-                    alt="idk1"
-                    style={{ width: '100%' }}
-                  />
+                  <Link to={'/metalroofing'}>
+                    <img
+                      src={require('./IMG_3840.jpg')}
+                      alt="idk1"
+                      style={{ width: '100%' }}
+                    />
+                  </Link>
                 </div>
                 <div className="column">
                   <img

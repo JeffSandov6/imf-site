@@ -1,0 +1,10 @@
+h1 {
+  font-family: Georgia, serif;
+  font-size: 70px;
+  text-align: center;
+}
+
+hr {
+  border-width: 10px;
+  background-color: black;
+}

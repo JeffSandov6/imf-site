@@ -5,7 +5,7 @@ import MetalRoofing from './pages/MetalRoofing/MetalRoofing';
 
 export default () => (
   <Switch>
-    <Route path="/" exact component={Home} />
-    <Route path="/metalroofing/" exact component={MetalRoofing} />
+    <Route exact path="/" component={Home} />
+    <Route exact path="/metalroofing" component={MetalRoofing} />
   </Switch>
 );
