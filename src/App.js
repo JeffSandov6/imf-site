@@ -6,6 +6,8 @@ import { BrowserRouter as Router } from 'react-router-dom';
 // import './App.css';
 import NavigationBar from './components/NavigationBar/NavigationBar';
 import Home from './pages/Home/Home';
+import MetalRoofing from './pages/MetalRoofing/MetalRoofing';
+import MetalBuilding from './pages/MetalBuilding/MetalBuilding';
 
 class App extends Component {
   render() {
@@ -16,7 +18,9 @@ class App extends Component {
         </div>
         <div>
           <Router>
-            <Home />
+            <MetalBuilding />
+            {/* <MetalRoofing /> */}
+            {/* <Home /> */}
           </Router>
         </div>
       </div>
