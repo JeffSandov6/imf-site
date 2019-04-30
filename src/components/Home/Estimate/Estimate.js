@@ -30,18 +30,20 @@ class Estimate extends Component {
                 </div>
               </div>
             </div>{' '}
-            {/*/column left */}
+            {/*/column left is the stuff above*/}
             <div className="col-sm-12 col-md-9">
               <br />
               <br />
               <br />
               <div className="row">
                 <div className="column">
-                  <img
-                    src={require('./IMG_3840.jpg')}
-                    alt="idk1"
-                    style={{ width: '100%' }}
-                  />
+                  <a href="/metalroofing">
+                    <img
+                      src={require('./IMG_3840.jpg')}
+                      alt="idk1"
+                      style={{ width: '100%' }}
+                    />
+                  </a>
                 </div>
                 <div className="column">
                   <img

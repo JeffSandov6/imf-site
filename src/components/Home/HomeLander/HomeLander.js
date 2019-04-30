@@ -16,9 +16,11 @@ class HomeLander extends Component {
               />
             </div>
           </div>
-
-          <div className="col-sm-12 col-md-9">
-            <RotatingImage />
+          <div className="col-sm-12 col-md-3" />
+          <div className="col-sm-12 col-md-6">
+            <div className="rotatingBox">
+              <RotatingImage />
+            </div>
           </div>
         </div>
       </div>

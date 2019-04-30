@@ -25,7 +25,7 @@ class ImagesAndVideo extends Component {
           </div>
           <div class="column">
             <img
-              src={require('./IMG_3842.jpg')}
+              src={require('./IMG_3841.jpg')}
               alt="idk1"
               style={{ width: '100%' }}
             />
