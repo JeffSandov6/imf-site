@@ -9,6 +9,8 @@ import Home from './pages/Home/Home';
 import MetalRoofing from './pages/MetalRoofing/MetalRoofing';
 import MetalBuilding from './pages/MetalBuilding/MetalBuilding';
 
+//TODO: fix up the routing so that links will actually work
+
 class App extends Component {
   render() {
     return (
