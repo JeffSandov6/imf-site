@@ -8,3 +8,12 @@ hr {
   border-width: 10px;
   background-color: black;
 }
+
+p {
+  font-size: 20px;
+}
+
+.mainText {
+  margin-left: 10px;
+  margin-right: 10px;
+}
