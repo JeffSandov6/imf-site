@@ -8,6 +8,7 @@ import NavigationBar from './components/NavigationBar/NavigationBar';
 import Home from './pages/Home/Home';
 import MetalRoofing from './pages/MetalRoofing/MetalRoofing';
 import MetalBuilding from './pages/MetalBuilding/MetalBuilding';
+import AboutUs from './pages/AboutUs/AboutUs';
 
 //TODO: fix up the routing so that links will actually work
 
@@ -20,7 +21,8 @@ class App extends Component {
         </div>
         <div>
           <Router>
-            <MetalBuilding />
+            <AboutUs />
+            {/* <MetalBuilding /> */}
             {/* <MetalRoofing /> */}
             {/* <Home /> */}
           </Router>

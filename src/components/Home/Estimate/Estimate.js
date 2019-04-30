@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom';
 // TODO: use figure and figcaption to put a caption under each of the 6 images, so as to
 //       specify what each picture and link leads to
 
+//       have the email be sent upon pressing submit
+
 class Estimate extends Component {
   render() {
     return (
