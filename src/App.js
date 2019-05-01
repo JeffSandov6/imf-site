@@ -10,6 +10,7 @@ import MetalRoofing from './pages/MetalRoofing/MetalRoofing';
 import MetalBuilding from './pages/MetalBuilding/MetalBuilding';
 import AboutUs from './pages/AboutUs/AboutUs';
 import RoofMnR from './pages/RoofMnR/RoofMnR';
+import ContactUs from './pages/ContactUs/ContactUs';
 
 //TODO: fix up the routing so that links will actually work
 
@@ -22,7 +23,8 @@ class App extends Component {
         </div>
         <div>
           <Router>
-            <RoofMnR />
+            <ContactUs />
+            {/* <RoofMnR /> */}
             {/* <AboutUs /> */}
             {/* <MetalBuilding /> */}
             {/* <MetalRoofing /> */}
