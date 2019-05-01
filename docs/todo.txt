@@ -7,3 +7,5 @@
 - Look through all js files and get all the todo stuff finished
 
 - In the about us page it says you have 50+ years of experience, but y'all are a brand new company. 
+
+- The about us page final paragraph is kind of going against what it claims towards the end.

@@ -9,6 +9,7 @@ import Home from './pages/Home/Home';
 import MetalRoofing from './pages/MetalRoofing/MetalRoofing';
 import MetalBuilding from './pages/MetalBuilding/MetalBuilding';
 import AboutUs from './pages/AboutUs/AboutUs';
+import RoofMnR from './pages/RoofMnR/RoofMnR';
 
 //TODO: fix up the routing so that links will actually work
 
@@ -21,8 +22,9 @@ class App extends Component {
         </div>
         <div>
           <Router>
+            <RoofMnR />
             {/* <AboutUs /> */}
-            <MetalBuilding />
+            {/* <MetalBuilding /> */}
             {/* <MetalRoofing /> */}
             {/* <Home /> */}
           </Router>
