@@ -17,3 +17,18 @@ p {
   margin-left: 10px;
   margin-right: 10px;
 }
+
+.row::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.image {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.middleSection {
+  margin-top: 20px;
+}
