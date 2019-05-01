@@ -4,6 +4,7 @@ import Home from './pages/Home/Home';
 import MetalRoofing from './pages/MetalRoofing/MetalRoofing';
 import MetalBuilding from './pages/MetalBuilding/MetalBuilding';
 import AboutUs from './pages/AboutUs/AboutUs';
+import RoofMnR from './pages/RoofMnR/RoofMnR';
 
 export default () => (
   <Switch>
@@ -11,5 +12,6 @@ export default () => (
     <Route exact path="/metalroofing" component={MetalRoofing} />
     <Route exact path="/metalbuilding" component={MetalBuilding} />
     <Route exact path="/aboutus" component={AboutUs} />
+    <Route exact path="/roofmaintenancerepair" component={RoofMnR} />
   </Switch>
 );
